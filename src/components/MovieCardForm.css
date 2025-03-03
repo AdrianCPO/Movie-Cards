@@ -1,0 +1,138 @@
+.movie-card-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f569;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.movie-card-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movie-card-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-card-form label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.movie-card-form input[type="text"],
+.movie-card-form input[type="range"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card-form input[type="range"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: none;
+  appearance: none;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.movie-card-form input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #333;
+  cursor: pointer;
+}
+
+.movie-card-form input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #333;
+  cursor: pointer;
+}
+
+.genre {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.movie-card-form.genres {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.movie-card-form.genres label {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.movie-card-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  resize: vertical;
+  min-height: 100px;
+  max-height: 200px;
+}
+
+.movie-card-form.genres input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.bottons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+.clear {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.movie-card-form form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
