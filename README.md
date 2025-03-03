@@ -1,9 +1,6 @@
 # Movie-Cards
 
-Movie Cards
-Table of content
-Regular version
-Edited version that includes Context
+
 You are going to create a webpage where you can add movie cards. This will be done through a form, where the user can type in a title, rating, genre and a description.
 
 The image at the bottom of this article is just a wireframe, your application should resemble that one but you can ( should? ) take it to the next level.
